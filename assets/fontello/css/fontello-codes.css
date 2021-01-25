@@ -1,0 +1,8 @@
+
+.icon-heart-empty:before { content: '\e800'; } /* '' */
+.icon-search:before { content: '\e801'; } /* '' */
+.icon-facebook:before { content: '\e802'; } /* '' */
+.icon-angle-down:before { content: '\f107'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-shopping-basket:before { content: '\f291'; } /* '' */
+.icon-user-o:before { content: '\f2c0'; } /* '' */

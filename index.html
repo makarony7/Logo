@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie</title>
+
+    <link rel="stylesheet" href="src/css/slick.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="assets/fontello/css/fontello.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="bg--color1">
+            <div class="container">
+                <div class="header__top">
+                    <a href="javascript:void(0)" class="header__top-logo font48 fw400">
+                        Logo Sklepu
+                    </a>
+                    <div class="header__top-hamburger">
+                        <div id="hamburger" class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <nav class="d-none-575">
+                        <ul class="nav">
+                            <li class="nav__item"><a href="javascript:void(0)" class="nav__item-link font14">Sklepy</a>
+                            </li>
+                            <li class="nav__item"><a href="javascript:void(0)" class="nav__item-link font14">FAQ</a>
+                            </li>
+                            <li class="nav__item"><a href="javascript:void(0)" class="nav__item-link font14">Do
+                                    salonów</a></li>
+                            <li class="nav__item">
+                                <a href="javascript:void(0)" class="nav__item-link font14">O nas
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="javascript:void(0)" class="nav__item-link font14">Kontakt</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <p class="header__top-delivery font14">Darmowa dostawa od 250 zł już w 2 dni</p>
+                    <div class="header__top-currency">
+                        <p class="font14">Waluta:</p>
+                        <select name="currency" id="currency" class="currency__select ff-mplus font14 fw700">
+                            <option value="pln" class="currency__select--option">PLN</option>
+                            <option value="aud" class="currency__select--option">AUD</option>
+                            <option value="gbp" class="currency__select--option">GBP</option>
+                            <option value="eur" class="currency__select--option">EUR</option>
+                        </select>
+                    </div>
+                    <div id="hiddenMenu" class="rwd-menu">
+                        <nav>
+                            <ul class="nav--rwd">
+                                <li class="nav__item"><a href="javascript:void(0)"
+                                        class="nav__item-link font18">Sklepy</a>
+                                </li>
+                                <li class="nav__item"><a href="javascript:void(0)" class="nav__item-link font18">FAQ</a>
+                                </li>
+                                <li class="nav__item"><a href="javascript:void(0)" class="nav__item-link font18">Do
+                                        salonów</a></li>
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font18">O nas
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font18">Kontakt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bb-color8">
+            <div class="container">
+                <div class="header__center">
+                    <div class="header__center-contact">
+                        <img src="assets/icons/online.png" alt="online.png">
+                        <div>
+                            <p class="font10 font10--lh-10 uppercase">Infolinia:</p>
+                            <a href="tel:504240141" class="font13 fw500">+48 504 240 141</a>
+                        </div>
+                    </div>
+                    <div class="header__center-logo">
+                        <a href="javascript:void(0)" class="font48 fw400">
+                            Logo Sklepu
+                        </a>
+                    </div>
+                    <div class="header__center-icons">
+                        <a href="javascript:void(0)" class="icons__link"><i class="icon-user-o"></i></a>
+                        <a href="javascript:void(0)" class="icons__link"><i class="icon-search"></i></a>
+                        <a href="javascript:void(0)" class="icons__link relative">
+                            <span class="round round--w22 round--color2 font13 font13--lh-15">0</span><i
+                                class="icon-heart-empty"></i></a>
+                        <a href="javascript:void(0)" class="icons__link relative">
+                            <span class="round round--w22 round--color2 font13 font13--lh-15">0</span><i
+                                class="icon-shopping-basket"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__bottom">
+                <nav>
+                    <ul class="nav">
+                        <li class="nav__item"><a href="javascript:void(0)"
+                                class="nav__item-link link--active font16">Strona
+                                główna</a>
+                        </li>
+                        <li class="nav__item nav__item--new"><a href="javascript:void(0)"
+                                class="nav__item-link font16">Suplementy
+                                Diety<i class="icon-angle-down"></i></a>
+                            <span class="new-item font8">Nowości</span>
+                        </li>
+                        <li class="nav__item"><a href="javascript:void(0)" class="nav__item-link font16">Kosmetyki<i
+                                    class="icon-angle-down"></i></a></li>
+                        <li class="nav__item">
+                            <a href="javascript:void(0)" class="nav__item-link font16">Stylizacja Paznokci<i
+                                    class="icon-angle-down"></i></a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="javascript:void(0)" class="nav__item-link font16">Sprzęt Kosmetyczny<i
+                                    class="icon-angle-down"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="click">
+        <section class="slider">
+            <div class="container container--no-padding">
+                <div id="main-slider">
+                    <div class="relative">
+                        <img src="assets/slider/slider1.jpg" alt="slider1.jpg" class="d-none-767">
+                        <img src="assets/slider/slider1rwd.jpg" alt="slider1.jpg" class="d-none-768">
+                        <div class="slider__single">
+                            <div class="slider__single-inside">
+                                <div class="container container--short">
+                                    <h2 class="font62 fw400">
+                                        Hydrate and
+                                        <span class="font72 fw400">
+                                            Balance
+                                        </span>
+                                    </h2>
+                                    <a href="javascript:void(0)" class="btn btn--color4 font18 fw600">Show more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/slider/slider2.jpg" alt="slider2.jpg" class="d-none-767">
+                        <img src="assets/slider/slider2rwd.jpg" alt="slider2.jpg" class="d-none-768">
+                        <div class="slider__single">
+                            <div class="slider__single-inside">
+                                <div class="container container--short">
+                                    <h2 class="font62 fw400">
+                                        Lorem
+                                        <span class="font72 fw400">
+                                            Ipsum
+                                        </span>
+                                    </h2>
+                                    <a href="javascript:void(0)" class="btn btn--color4 font18 fw600">Show more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/slider/slider3.jpg" alt="slider3.jpg" class="d-none-767">
+                        <img src="assets/slider/slider3rwd.jpg" alt="slider3.jpg" class="d-none-768">
+                        <div class="slider__single">
+                            <div class="slider__single-inside">
+                                <div class="container container--short">
+                                    <h2 class="font62 fw400">
+                                        Jan
+                                        <span class="font72 fw400">
+                                            Słuszkiewicz
+                                        </span>
+                                    </h2>
+                                    <a href="javascript:void(0)" class="btn btn--color4 font18 fw600">Show more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="assets/slider/slider4.jpg" alt="slider4.jpg" class="d-none-767">
+                        <img src="assets/slider/slider4rwd.jpg" alt="slider4.jpg" class="d-none-768">
+                        <div class="slider__single">
+                            <div class="slider__single-inside">
+                                <div class="container container--short">
+                                    <h2 class="font62 fw400">
+                                        Dolor
+                                        <span class="font72 fw400">
+                                            sit amet
+                                        </span>
+                                    </h2>
+                                    <a href="javascript:void(0)" class="btn btn--color4 font18 fw600">Show more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container container--short">
+                <h3 class="products--subtitle ff-mplus font18 fw600 uppercase">Odkryj</h3>
+                <h3 class="products--title font48 fw400">Produkty</h3>
+                <div class="tabs">
+                    <ul class="tabs__nav">
+                        <li class="tabs__item tabs__item-active">
+                            <a href="#tab-one" class="tabs__item-link font-18">
+                                Nowości
+                            </a>
+                        </li>
+                        <li class="tabs__item">
+                            <a href="#tab-two" class="tabs__item-link font-18">
+                                Bestsellery
+                            </a>
+                        </li>
+                    </ul>
+
+
+                    <section id="tab-one" class="tabs__section tabs__section-active">
+                        <div class="product">
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product1.jpg" alt="product1.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Mineralny podkład pod makijaż 4 w 1 ze składnikami pielęgnacyjnymi
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        108,49 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product2.jpg" alt="product2.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Mineralny podkład pod makijaż 4 w 1 ze składnikami pielęgnacyjnymi
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        108,49 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product3.jpg" alt="product3.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Mineralny podkład pod makijaż 4 w 1 ze składnikami pielęgnacyjnymi
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        108,49 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product4.jpg" alt="product4.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Mineralny podkład pod makijaż 4 w 1 ze składnikami pielęgnacyjnymi
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        108,49 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product5.jpg" alt="product5.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Mineralny podkład pod makijaż 4 w 1 ze składnikami pielęgnacyjnymi
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        108,49 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product6.jpg" alt="product6.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Mineralny podkład pod makijaż 4 w 1 ze składnikami pielęgnacyjnymi
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        108,49 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product7.jpg" alt="product7.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Mineralny podkład pod makijaż 4 w 1 ze składnikami pielęgnacyjnymi
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        108,49 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product8.jpg" alt="product8.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Mineralny podkład pod makijaż 4 w 1 ze składnikami pielęgnacyjnymi
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        108,49 zł
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="tab-two" class="tabs__section">
+                        <div class="product">
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product7.jpg" alt="product7.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        32,01 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product8.jpg" alt="product8.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        32,01 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product7.jpg" alt="product7.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        32,01 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product1.jpg" alt="product1.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        32,01 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product2.jpg" alt="product2.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        32,01 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product3.jpg" alt="product3.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        32,01 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product4.jpg" alt="product4.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        32,01 zł
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="product__single">
+                                <div class="product__single-img">
+                                    <a href="javascript:void(0)">
+                                        <img src="assets/products/product5.jpg" alt="product5.jpg">
+                                    </a>
+                                </div>
+                                <div class="product__single-title">
+                                    <h2>
+                                        <a href="javascript:void(0)" class="font16 font16--lh-26">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </a>
+                                    </h2>
+                                </div>
+                                <div class="product__single-price">
+                                    <h3 class="font16">
+                                        32,01 zł
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section class="container container--short">
+            <div class="offer">
+                <div class="offer__single offer--1">
+                    <img src="assets/offer/offer1.jpg" alt="offer1.jpg">
+                    <div class="offer__single-absolute">
+                        <h3 class="font18 uppercase fw700">odkryj najpopularniejsze</h3>
+                        <h2 class="font36 fw400">Suplementy Diety</h2>
+                        <a href="javascript:void(0)" class="font16 font16--lh-19">Zobacz więcej</a>
+                    </div>
+                </div>
+                <div class="offer__single offer--2">
+                    <img src="assets/offer/offer2.jpg" alt="offer2.jpg">
+                    <div class="offer__single-absolute">
+                        <h3 class="font18 uppercase fw700">poznaj cruelty-free</h3>
+                        <h2 class="font36 fw400">Stylizacja paznokci</h2>
+                        <a href="javascript:void(0)" class="font16 font16--lh-19">Zobacz więcej</a>
+                    </div>
+                </div>
+                <div class="offer__single offer--3">
+                    <img src="assets/offer/offer3.jpg" alt="offer3.jpg">
+                    <div class="offer__single-absolute">
+                        <h3 class="font18 uppercase fw700">najlepszy sprzęt</h3>
+                        <h2 class="font36 fw400">Kosmetyczny</h2>
+                        <a href="javascript:void(0)" class="font16 font16--lh-19">Zobacz więcej</a>
+                    </div>
+                </div>
+                <div class="offer__single offer--4">
+                    <div class="offer__single-absolute">
+                        <h2 class="font36 fw400">Salon Kosmetyczny</h2>
+                        <a href="javascript:void(0)" class="font16 font16--lh-19">Zobacz więcej</a>
+                    </div>
+                </div>
+                <div class="offer__single offer--5">
+                    <img src="assets/offer/offer4.jpg" alt="offer4.jpg">
+                    <div class="offer__single-absolute">
+                        <h3 class="font18 uppercase fw700">poznaj cruelty-free</h3>
+                        <h2 class="font36 fw400">Kosmetyki</h2>
+                        <a href="javascript:void(0)" class="font16 font16--lh-19">Zobacz więcej</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="free">
+            <div class="container container--short">
+                <div id="free-slider">
+                    <div class="free-slider">
+                        <div class="free__img">
+                            <img src="assets/free/free1.jpg" alt="free1.jpg">
+                        </div>
+                        <p class="font16">Cruelty<span>free</span></p>
+                    </div>
+                    <div>
+                        <div class="free__img">
+                            <img src="assets/free/free2.jpg" alt="free2.jpg">
+                        </div>
+                        <p class="font16">Talc<span>free</span></p>
+                    </div>
+                    <div>
+                        <div class="free__img">
+                            <img src="assets/free/free3.jpg" alt="free3.jpg">
+                        </div>
+                        <p class="font16">Paraben<span>free</span></p>
+                    </div>
+                    <div>
+                        <div class="free__img">
+                            <img src="assets/free/free4.jpg" alt="free4.jpg">
+                        </div>
+                        <p class="font16">Gluten<span>free</span></p>
+                    </div>
+                    <div>
+                        <div class="free__img">
+                            <img src="assets/free/free5.jpg" alt="free5.jpg">
+                        </div>
+                        <p class="font16">Petroleum<span>free</span></p>
+                    </div>
+                    <div>
+                        <div class="free__img">
+                            <img src="assets/free/free6.jpg" alt="free6.jpg">
+                        </div>
+                        <p class="font16">Mineral Oil<span>free</span></p>
+                    </div>
+                    <div>
+                        <div class="free__img">
+                            <img src="assets/free/free7.jpg" alt="free7.jpg">
+                        </div>
+                        <p class="font16">Vegan<span>Friendly</span></p>
+                    </div>
+                    <div>
+                        <div class="free__img">
+                            <img src="assets/free/free8.jpg" alt="free8.jpg">
+                        </div>
+                        <p class="font16">Sodium Lauryl<span>Lulfate Free</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer bg--color1 click">
+        <div class="bb-color8">
+            <div class="container container--short">
+                <div class="footer__top">
+                    <div class="footer__top-contact">
+                        <p>
+                            <a href="javascript:void(0)" class="f-contact--logo font48 fw400">
+                                Logo Sklepu
+                            </a>
+                        </p>
+                        <p class="font14 font14--lh-19">Ul . Cystersów 2/53
+                            31-553 Kraków</p>
+                        <p>
+                            <a href="tel:504240141" class="f-contact--tel font14 font14--lh-19">504 240 141</a>
+                        </p>
+                        <p>
+                            <a href="mailto:Adres@email.pl"
+                                class="f-contact--mail font14 font14--lh-19">Adres@email.pl</a>
+                        </p>
+                    </div>
+                    <div class="footer__top-contact1 f-contact-mt">
+                        <nav>
+                            <ul class="nav">
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font14">
+                                        Dostawa
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font14">
+                                        Polityka Prywatności
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font14">
+                                        Regulamin
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font14">
+                                        Kontakt
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font14">
+                                        Zwroty
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer__top-contact2 f-contact-mt">
+                        <nav>
+                            <ul class="nav">
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font14">
+                                        Moje Konto
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font14">
+                                        Historia Zamówień
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font14">
+                                        Lista Życzeń
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font14">
+                                        Newsletter
+                                    </a>
+                                </li>
+                                <li class="nav__item">
+                                    <a href="javascript:void(0)" class="nav__item-link font14">
+                                        Bony podarunkowe
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="f-contact-mt f-contact-mt--x footer-newsletter">
+                        <p class="font14">Zapisz się na Newsletter</p>
+                        <p class="font14">Zyskaj zniżkę -10% na kolejne zakupy</p>
+                        <form action="javascript:void(0)" class="form">
+                            <div class="form__field bb-color5">
+                                <input type="email" name="mail" class="form__field-input" required>
+                                <input type="submit" value="Zapisz"
+                                    class="form__field-submit font14 fw700 btn btn-submit btn--color1">
+                            </div>
+                            <label class="form__label">
+                                <input type="checkbox" name="subscribe" class="form__label-checkbox">
+                                <p class="form__label-content font10 font10--lh-139">Chcę otrzymywać e-maile o
+                                    aktualnych ofertach oraz promocjach.
+                                    <span>Wypisanie się</span> z listy mailingowej jest możliwe w każdej chwili i jest
+                                    bezpłatne.
+                                </p>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container--short">
+            <div class="footer__bottom">
+                <div class="footer__bottom-social">
+                    <a href="javascript:void(0)" class="font15"><i class="icon-facebook"></i>Facebook</a>
+                    <a href="javascript:void(0)" class="font15"><i class="icon-instagram"></i>Instagram</a>
+                </div>
+                <div class="footer__bottom-copyright">
+                    <p class="font-15">Cosmetics © 2020</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="src/js/jquery-351.js"></script>
+    <script src="src/js/slick.min.js"></script>
+    <script src="src/js/scripts.js"></script>
+</body>
+
+</html>
